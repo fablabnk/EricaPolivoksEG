@@ -3401,12 +3401,6 @@
 		(uuid "10ee998a-b166-42b4-b086-924822f63326")
 	)
 	(junction
-		(at 229.87 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13fbd69c-c7cf-4975-9cd1-df25fa913c29")
-	)
-	(junction
 		(at 41.91 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3453,6 +3447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3362619b-7e91-40f6-91a8-4deba6d76e24")
+	)
+	(junction
+		(at 255.27 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "338e85b2-d402-4f41-81b9-3eb34c85e50f")
 	)
 	(junction
 		(at 100.33 116.84)
@@ -3731,12 +3731,6 @@
 		(uuid "a4737345-dbe2-4865-a02e-a9ade247485c")
 	)
 	(junction
-		(at 29.21 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5a78c5d-b8ca-4d2e-861e-7ce6894f3876")
-	)
-	(junction
 		(at 241.3 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3827,12 +3821,6 @@
 		(uuid "cf4d0c83-fbf1-4bb7-b9a7-b24644d03ca2")
 	)
 	(junction
-		(at 29.21 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfef4392-c6c1-4a84-9700-7488280f716e")
-	)
-	(junction
 		(at 29.21 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3915,6 +3903,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f239ecd1-f96b-45d4-90fb-2ba57e485823")
+	)
+	(junction
+		(at 119.38 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fca219be-2fd0-473b-b788-64e437a89ee4")
 	)
 	(junction
 		(at 119.38 91.44)
@@ -4190,6 +4184,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 189.23) (xy 115.57 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1868db7d-181e-4a26-b451-2cfff6864aa7")
+	)
+	(wire
+		(pts
 			(xy 90.17 72.39) (xy 90.17 86.36)
 		)
 		(stroke
@@ -4340,6 +4344,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 30.48) (xy 264.16 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2fb755-8201-4e2e-a8d1-8559bb9f0d33")
+	)
+	(wire
+		(pts
 			(xy 189.23 38.1) (xy 189.23 50.8)
 		)
 		(stroke
@@ -4470,6 +4484,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 25.4) (xy 237.49 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401d6a81-861b-494f-915c-3a7aa6f6f5fd")
+	)
+	(wire
+		(pts
 			(xy 158.75 76.2) (xy 179.07 76.2)
 		)
 		(stroke
@@ -4587,16 +4611,6 @@
 			(type default)
 		)
 		(uuid "4faed46b-b5b3-4bef-ae45-f9e2d91b2057")
-	)
-	(wire
-		(pts
-			(xy 247.65 35.56) (xy 245.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50351b43-74de-4edc-8225-a57830e4d2af")
 	)
 	(wire
 		(pts
@@ -5010,6 +5024,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 25.4) (xy 246.38 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8135e1ce-4f9e-4020-b500-f2ea070ca7b9")
+	)
+	(wire
+		(pts
 			(xy 140.97 72.39) (xy 135.89 72.39)
 		)
 		(stroke
@@ -5080,6 +5104,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 30.48) (xy 254 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6af68b-0c99-44d9-b7c8-9a99f9549857")
+	)
+	(wire
+		(pts
 			(xy 189.23 50.8) (xy 189.23 54.61)
 		)
 		(stroke
@@ -5107,6 +5141,16 @@
 			(type default)
 		)
 		(uuid "8dfad93b-dc0e-4d6d-a345-22d990218a6a")
+	)
+	(wire
+		(pts
+			(xy 255.27 30.48) (xy 255.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8c5938-131d-4283-a8fc-a33f70be1a62")
 	)
 	(wire
 		(pts
@@ -5420,13 +5464,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 40.64) (xy 220.98 40.64)
+			(xy 255.27 44.45) (xy 229.87 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9b92045-ae02-4c54-8ea4-08b68f97ccf7")
+		(uuid "bd9c298b-325c-41f6-9e06-6083e5e82a75")
 	)
 	(wire
 		(pts
@@ -5750,6 +5794,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 36.83) (xy 246.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28f8d4b-d15f-423a-9070-92d7ba63a2f3")
+	)
+	(wire
+		(pts
 			(xy 41.91 176.53) (xy 48.26 176.53)
 		)
 		(stroke
@@ -5780,7 +5834,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 189.23) (xy 115.57 189.23)
+			(xy 120.65 189.23) (xy 119.38 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5827,16 +5881,6 @@
 			(type default)
 		)
 		(uuid "effcbabd-32fa-4a52-92b4-8864e3b45dbb")
-	)
-	(wire
-		(pts
-			(xy 229.87 40.64) (xy 229.87 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d90ac8-ef4d-41cd-a8ef-82d130c75410")
 	)
 	(wire
 		(pts
@@ -5947,204 +5991,6 @@
 			(type default)
 		)
 		(uuid "ff076e23-ebd4-4b92-acf2-622173234466")
-	)
-	(global_label "TP8"
-		(shape input)
-		(at 201.93 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "750173ae-7ab8-4335-9824-35278ec411a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.3623 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP10"
-		(shape input)
-		(at 201.93 21.59 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "768e489a-9771-4509-8f01-3e4cdafcfbf4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 13.9482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP5"
-		(shape input)
-		(at 123.19 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83aba5a1-844e-4547-b7a9-6c59e1e1ccdb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 79.9277 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP4"
-		(shape input)
-		(at 123.19 72.39 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a15946a9-e074-4292-9ab2-d08dc62ed38a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 65.9577 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP3"
-		(shape input)
-		(at 119.38 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b91952b0-de83-431c-817e-ac63a5325ab1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.9477 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP7"
-		(shape input)
-		(at 160.02 114.3 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2943319-48af-4f36-8a26-482ccedebfea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 107.8677 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP9"
-		(shape input)
-		(at 189.23 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3d76421-8356-4c03-965f-70114ca0e7fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6623 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP1"
-		(shape input)
-		(at 78.74 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb52fd34-22f2-4779-9004-bd40271edf7e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 77.3877 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP2"
-		(shape input)
-		(at 74.93 50.8 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f86c5eff-3587-47b1-a4ff-fb39686fd1c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 44.3677 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "PCM_4ms_Connector:Eurorack_Power_10pin_Unshrouded")
@@ -6403,26 +6249,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 220.98 40.64 0)
+		(lib_id "Device:LED")
+		(at 241.3 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "069b2fd7-e6d0-41d2-bd6b-6f036ed12c35")
-		(property "Reference" "#PWR033"
-			(at 220.98 46.99 0)
+		(uuid "08e0ec2e-b903-4590-9415-5c32a6ab768f")
+		(property "Reference" "D11"
+			(at 242.8875 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 220.98 45.72 0)
+		(property "Value" "GATE DELAY (YELLOW LED)"
+			(at 242.8875 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 40.64 0)
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,8 +6282,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 220.98 40.64 0)
+		(property "Datasheet" "~"
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,8 +6291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 40.64 0)
+		(property "Description" "Light emitting diode"
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,12 +6301,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "46a2eaeb-0c28-4c95-9714-e5649898e039")
+			(uuid "7db813a1-b1e0-4364-8a23-1055a3a5a82e")
+		)
+		(pin "2"
+			(uuid "97ad20e6-5921-4c23-a867-651e17897340")
 		)
 		(instances
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "#PWR033")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7366,17 +7213,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 29.21 181.61 270)
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 189.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1fb74020-36f1-493a-89e2-f5a019c914f9")
-		(property "Reference" "#PWR028"
-			(at 22.86 181.61 0)
+		(uuid "1f18c7a5-6f9c-4dfc-90bc-8a47e8d56c46")
+		(property "Reference" "#FLG02"
+			(at 119.38 191.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,17 +7231,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 25.4 181.6099 90)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 181.61 0)
+			(at 119.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,8 +7248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 29.21 181.61 0)
+		(property "Datasheet" "~"
+			(at 119.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,8 +7257,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 181.61 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 119.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,12 +7267,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf9fef01-611d-441a-900f-e223694b6fee")
+			(uuid "d56f15ca-c243-4b9e-a37e-d4708de18d36")
 		)
 		(instances
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "#PWR028")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8551,82 +8397,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 234.95 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37aaadd4-f646-4d1d-9aa3-122065edf107")
-		(property "Reference" "Q4"
-			(at 240.03 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 240.03 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 240.03 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 234.95 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 234.95 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9f0dfe48-5ac0-4c03-ae43-71861e5006f1")
-		)
-		(pin "1"
-			(uuid "f1c6c03a-eec0-435a-852c-a27c94beba58")
-		)
-		(pin "2"
-			(uuid "45329f21-a906-43e3-bfff-1ea70b64035e")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 67.31 173.99 90)
 		(unit 1)
@@ -8833,6 +8603,72 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c5c5422-43a5-4151-9488-bd0f3f7c1240")
+		(property "Reference" "#PWR032"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "748b77e9-87c9-4c0c-a9f4-581e195765aa")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9046,6 +8882,83 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 248.92 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48993eca-38ad-4b67-bda6-7dd9b17882bc")
+		(property "Reference" "Q4"
+			(at 243.84 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 243.84 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 243.84 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2e96357a-e337-4b97-8c56-18d62ba07604")
+		)
+		(pin "1"
+			(uuid "ec3c1771-8862-4dbd-bc6c-284fbf8bcef1")
+		)
+		(pin "2"
+			(uuid "1085d4d0-f6c3-4609-bfdc-4f49c250d0b6")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -9450,73 +9363,6 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 251.46 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d48cd86-bdaf-4fa8-9dfe-8f0a42b4d7be")
-		(property "Reference" "R40"
-			(at 251.46 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 251.46 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 33.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95f40baa-7fe9-4783-9bc9-a15923692c8a")
-		)
-		(pin "2"
-			(uuid "c8aad6b4-a6b4-4126-90ec-c35f8654e3ce")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10392,74 +10238,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 40.64 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cf34a4c-ca37-47d3-9f23-7ba567f948e9")
-		(property "Reference" "R38"
-			(at 226.06 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 226.06 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 226.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54fd9f05-a5b2-4aaa-a84d-8232b0aad0ae")
-		)
-		(pin "2"
-			(uuid "4dbd36e6-60e5-4885-901f-ea1a978b7325")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 229.87 48.26 0)
 		(mirror y)
 		(unit 1)
@@ -10521,71 +10299,6 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "639e43fe-93b2-4712-8e14-8faf5bdad563")
-		(property "Reference" "#PWR031"
-			(at 237.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f474455b-d327-4046-bc57-c21d961627d1")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12160,6 +11873,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e3baff-9e56-4912-be97-51feab2867f7")
+		(property "Reference" "#PWR028"
+			(at 109.22 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b1c594-a9bb-439b-b53a-7d8e678828f7")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 118.11 181.61 0)
 		(unit 5)
@@ -12261,73 +12041,6 @@
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "U1")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 255.27 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96ecbdd2-8612-4cd6-9f6d-ad6e980dc336")
-		(property "Reference" "#PWR032"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 259.08 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 255.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "149af8de-5a12-430e-8203-5a448313c3ca")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "#PWR032")
-					(unit 1)
 				)
 			)
 		)
@@ -12756,6 +12469,74 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
+		(at 228.6 25.4 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6db1af3-2b83-42e6-beff-5a1637648cca")
+		(property "Reference" "#PWR033"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 224.79 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 228.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3207e8b-9f7f-44f5-af10-c3b69437e504")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
 		(at 120.65 173.99 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13021,6 +12802,73 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 29.21 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae88be09-50a9-4210-ab99-db98557720db")
+		(property "Reference" "#FLG01"
+			(at 27.305 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 29.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db9a43cf-b812-406c-9c78-38e52abc12fa")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -13360,74 +13208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 241.3 35.56 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3392c38-7e5a-4298-a74b-275449899c12")
-		(property "Reference" "D11"
-			(at 239.7125 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GATE DELAY (YELLOW LED)"
-			(at 239.7125 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 241.3 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2641a50-81af-49d7-89a6-1eaf6803a272")
-		)
-		(pin "2"
-			(uuid "9cfb730d-28bf-4e5e-8a45-585d232b5363")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 179.07 64.77 0)
 		(mirror y)
@@ -13726,73 +13506,6 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 29.21 186.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9251259-62dd-407f-b104-cd568b9230de")
-		(property "Reference" "#FLG02"
-			(at 27.305 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 25.4 186.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1c341e1-6611-4e69-9b41-d567432eded3")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -15599,73 +15312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 29.21 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d26e869e-c7d6-4a73-9b07-aeebf17db91a")
-		(property "Reference" "#FLG01"
-			(at 27.305 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 25.4 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56ba6940-5862-4a31-a13d-f082084488b1")
-		)
-		(instances
-			(project "Erica_Polivoks_EG"
-				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 229.87 115.57 0)
 		(unit 4)
@@ -16337,6 +15983,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 232.41 25.4 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea2d6207-30a9-4bd5-be6b-7ac5fcca2a57")
+		(property "Reference" "R40"
+			(at 232.41 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 232.41 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2544b9ef-ef02-450e-8e8b-c8b97049c819")
+		)
+		(pin "2"
+			(uuid "833eeef5-5d69-42cd-ab38-1199aef8ce33")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 148.59 62.23 0)
 		(unit 1)
@@ -16478,6 +16192,73 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec248502-e806-4d6e-afa1-5bb7d28a990f")
+		(property "Reference" "#PWR031"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd815a3d-106f-49c3-91dd-d327425cf7bc")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17179,6 +16960,73 @@
 			(project "Erica_Polivoks_EG"
 				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9b53853-1ecf-49b4-9bbd-f30d0456f583")
+		(property "Reference" "R38"
+			(at 259.08 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 259.08 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "362cdb18-7332-48e0-8056-9314a1fe7d86")
+		)
+		(pin "2"
+			(uuid "bd4f869c-1036-4f70-80cd-2e9ffa84dd38")
+		)
+		(instances
+			(project "Erica_Polivoks_EG"
+				(path "/0927bc21-1b93-4b0d-a9e7-5d36cd6088af"
+					(reference "R38")
 					(unit 1)
 				)
 			)
