@@ -1,0 +1,94 @@
+(footprint "Faceplate_Hole_Jack_3.5mm_NPTH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.41 4.84 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5f9ec39-d68a-4036-ad08-0e66e6fad864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 0.27 6.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58afa21d-8201-40ce-a0ba-264e18480a58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Faceplate_Hole_Jack_3.5mm_NPTH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b352e37-823a-461a-8824-5bf38bde79d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5515302c-45e9-43e6-a81c-b86c9a69da3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fe1155b-9b8f-466c-895b-6849349886fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.508 0)
+		(end 0.508 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb98fffc-7058-4576-a25c-cfcda4188284")
+	)
+	(fp_line
+		(start 0 -0.508)
+		(end 0 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85fbb9be-3604-4fea-972d-0901371669be")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6.604 6.604)
+		(drill 6.604)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f7df39d6-029c-4cca-a049-2ec1d45000bd")
+	)
+)
