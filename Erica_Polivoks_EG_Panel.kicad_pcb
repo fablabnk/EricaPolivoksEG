@@ -42,8 +42,8 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0000020_7ffffffe)
+			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -72,9 +72,9 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 2)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -182,7 +182,7 @@
 			(at 0.254 2.286 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8a46c0dd-65b2-4ecb-bb51-0ea8ef77c8db")
+			(uuid "6d311617-31be-4acf-8a1b-1f0d73431654")
 			(effects
 				(font
 					(size 1 1)
@@ -194,7 +194,7 @@
 			(at 0.17 4.53 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79b342f0-43be-4af0-9c53-9b3c4c076f36")
+			(uuid "2842ea3f-8326-4f8f-a50d-cac4b7897da0")
 			(effects
 				(font
 					(size 1 1)
@@ -247,7 +247,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1df58219-ab3f-4a09-9a76-ddc17041eb1a")
+			(uuid "a946a538-16a4-461d-9b79-df1d7ad33ccc")
 		)
 		(fp_line
 			(start 0 -0.508)
@@ -257,7 +257,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6cf6e079-91e7-49be-8c68-8c0685ca750b")
+			(uuid "f5ddfd76-f822-475d-a6db-585d4c5d41f9")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -265,7 +265,7 @@
 			(drill 6.604)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "470019e6-a7b5-41db-9dc0-d8654f421765")
+			(uuid "4fac7caa-4e5c-46ba-9d71-aee0cac84b03")
 		)
 	)
 	(footprint "PCM_4ms_Faceplate:Faceplate_Hole_Pot_9mm"
@@ -276,7 +276,7 @@
 			(at 0.254 2.286 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8a46c0dd-65b2-4ecb-bb51-0ea8ef77c8db")
+			(uuid "c1fe4d51-d967-43b5-b3e6-794553eed0fe")
 			(effects
 				(font
 					(size 1 1)
@@ -288,7 +288,7 @@
 			(at 0.17 4.53 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79b342f0-43be-4af0-9c53-9b3c4c076f36")
+			(uuid "5eeff3e9-13a2-41b8-9da1-89ff86e1d206")
 			(effects
 				(font
 					(size 1 1)
@@ -341,7 +341,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1df58219-ab3f-4a09-9a76-ddc17041eb1a")
+			(uuid "9e57221c-0d1d-46d4-b264-26dc7a298c48")
 		)
 		(fp_line
 			(start 0 -0.508)
@@ -351,7 +351,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6cf6e079-91e7-49be-8c68-8c0685ca750b")
+			(uuid "128b7210-e874-4b2c-bb9d-ebcb994342b8")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -359,7 +359,7 @@
 			(drill 6.604)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "470019e6-a7b5-41db-9dc0-d8654f421765")
+			(uuid "e89e86f9-d6ac-4ac2-a9af-501c43d6871c")
 		)
 	)
 	(footprint "PCM_4ms_Faceplate:Faceplate_Rail_Mount_Slot"
@@ -666,7 +666,7 @@
 			(at 0.41 4.84 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af41d90b-8dc5-4648-8f78-81f4222488c8")
+			(uuid "f7dc7a7c-a18e-44a6-a75f-4e46962e717d")
 			(effects
 				(font
 					(size 1 1)
@@ -678,7 +678,7 @@
 			(at 0.27 6.16 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30a867d5-8964-4ef4-b129-a46bc8f6462c")
+			(uuid "bdcb175b-3777-4db8-ad5b-8219fd2e63c0")
 			(effects
 				(font
 					(size 1 1)
@@ -731,7 +731,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "25ac1cc0-45b6-4ea2-8c65-f8d267d510f6")
+			(uuid "445170bc-63f9-4652-9ba2-84d89464826b")
 		)
 		(fp_line
 			(start 0 -0.508)
@@ -741,7 +741,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a7dea78-cbe5-49f5-a3b5-ed9810aca00f")
+			(uuid "547778d1-10ea-4a19-b037-22eb95bb63c2")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -749,7 +749,7 @@
 			(drill 6.604)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "92b4207b-3977-48e5-bedf-350079d6e6a1")
+			(uuid "ca61cf43-2e9f-419f-aade-aedfe675005c")
 		)
 	)
 	(footprint "PCM_4ms_Faceplate:Faceplate_Rail_Mount_Slot"
@@ -868,7 +868,7 @@
 			(at 0.254 2.286 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8a46c0dd-65b2-4ecb-bb51-0ea8ef77c8db")
+			(uuid "14e42fb3-1b82-4917-b2d4-beb715a5a283")
 			(effects
 				(font
 					(size 1 1)
@@ -880,7 +880,7 @@
 			(at 0.17 4.53 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79b342f0-43be-4af0-9c53-9b3c4c076f36")
+			(uuid "b8759b1e-a60f-485a-a439-ce128b355164")
 			(effects
 				(font
 					(size 1 1)
@@ -933,7 +933,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1df58219-ab3f-4a09-9a76-ddc17041eb1a")
+			(uuid "7b456d5d-7f70-470d-add5-7cb8d84d88be")
 		)
 		(fp_line
 			(start 0 -0.508)
@@ -943,7 +943,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6cf6e079-91e7-49be-8c68-8c0685ca750b")
+			(uuid "8cc87d36-76a9-4bfe-acc7-a2fea951f5b0")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -951,7 +951,7 @@
 			(drill 6.604)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "470019e6-a7b5-41db-9dc0-d8654f421765")
+			(uuid "cb00ba7e-4405-4594-b186-4c0940e84227")
 		)
 	)
 	(footprint "PCM_4ms_Faceplate:Faceplate_Hole_LED_3mm"
@@ -1056,7 +1056,7 @@
 			(at 0 3.937 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79e5517d-304b-49e7-8576-a18f1f0c0dbb")
+			(uuid "b290d786-1851-4439-8ab2-8af9b30a52f6")
 			(effects
 				(font
 					(size 1 1)
@@ -1068,7 +1068,7 @@
 			(at 0.09 2.46 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8ac3b53-3113-4091-bd0c-85d2422c3804")
+			(uuid "dd462a25-9d79-4744-8981-552f5002b500")
 			(effects
 				(font
 					(size 1 1)
@@ -1121,7 +1121,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "962bed0e-8444-4cbd-9429-ef2708168d9b")
+			(uuid "84ee26ee-39d1-41db-8d8c-a8628daed6c8")
 		)
 		(fp_line
 			(start 0 -0.508)
@@ -1131,7 +1131,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0a4d822d-3bd8-4222-846c-58575a86a790")
+			(uuid "1d00b1a3-12e3-4afa-851e-ef1084fdb679")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -1139,7 +1139,7 @@
 			(drill 3.048)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "a5f31e2e-3947-4a85-abc6-64a0b4445ebd")
+			(uuid "9720f3d6-4cb6-4f7b-b941-865ccb8a99f5")
 		)
 	)
 	(footprint "PCM_4ms_Faceplate:Faceplate_Hole_Jack_3.5mm"
@@ -1150,7 +1150,7 @@
 			(at 0.41 4.84 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af41d90b-8dc5-4648-8f78-81f4222488c8")
+			(uuid "9d17a80d-e471-4df4-b387-df66e70a38c5")
 			(effects
 				(font
 					(size 1 1)
@@ -1162,7 +1162,7 @@
 			(at 0.27 6.16 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30a867d5-8964-4ef4-b129-a46bc8f6462c")
+			(uuid "3fce433c-89c7-4dd1-a5dd-1a4cc83008ba")
 			(effects
 				(font
 					(size 1 1)
@@ -1215,7 +1215,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "25ac1cc0-45b6-4ea2-8c65-f8d267d510f6")
+			(uuid "f37a59a3-c302-42ad-9b01-c826f59419f6")
 		)
 		(fp_line
 			(start 0 -0.508)
@@ -1225,7 +1225,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a7dea78-cbe5-49f5-a3b5-ed9810aca00f")
+			(uuid "3d7a2c4e-9921-49e0-b2f9-08e2265a5986")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -1233,7 +1233,7 @@
 			(drill 6.604)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "92b4207b-3977-48e5-bedf-350079d6e6a1")
+			(uuid "640067e1-bf99-4da4-b457-57292eed7b21")
 		)
 	)
 	(footprint "PCM_4ms_Faceplate:Faceplate_Hole_Jack_3.5mm"
@@ -1244,7 +1244,7 @@
 			(at 0.41 4.84 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af41d90b-8dc5-4648-8f78-81f4222488c8")
+			(uuid "d068e282-5e86-4e2f-8684-30d54dfeb416")
 			(effects
 				(font
 					(size 1 1)
@@ -1256,7 +1256,7 @@
 			(at 0.27 6.16 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30a867d5-8964-4ef4-b129-a46bc8f6462c")
+			(uuid "442a68d0-29e1-4fae-92cd-ff1971e9559b")
 			(effects
 				(font
 					(size 1 1)
@@ -1309,7 +1309,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "25ac1cc0-45b6-4ea2-8c65-f8d267d510f6")
+			(uuid "8c68a480-0c4e-4f29-9ea8-3666d367a941")
 		)
 		(fp_line
 			(start 0 -0.508)
@@ -1319,7 +1319,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a7dea78-cbe5-49f5-a3b5-ed9810aca00f")
+			(uuid "f8982b3d-593c-4d63-a2f7-a71f6ff41fb8")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -1327,7 +1327,7 @@
 			(drill 6.604)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "92b4207b-3977-48e5-bedf-350079d6e6a1")
+			(uuid "724219ec-2f82-4c24-8f17-462b72de4f57")
 		)
 	)
 	(gr_rect

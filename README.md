@@ -1,11 +1,13 @@
 # Build Notes
 
-- 2N3094 and 2N3096 have been abbreviated to 4 and 6 respectively on silkscreeningg
+- 2N3094 and 2N3096 have been abbreviated to 4 and 6 respectively on silkscreening
 - only place NU 39K resistor if requiring -5V ... +5V output on INV EG OUT (presume otherwise get 0-10V)
+- TP labels on schematic could actually be test points on the original PCB - check!
 
 # TODO
 
-check which DPDT footprint and remove "not verified" from layout
+TODO: check which DPDT footprint and remove "not verified" from layout - waiting on component
+DONE: fully double check schematic against original
 DONE: check IDC power pins & keying - stripe should be to -12V rail
 DONE: check inverting (-) and non-inverting inputs (+) on TL074 in schematic by comparing to pinout
 DONE: redo BOM - check we have 2.7k resistor! No, just 2.9K
