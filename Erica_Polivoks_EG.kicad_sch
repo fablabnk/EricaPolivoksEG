@@ -5722,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Value" "EG OUT (YELLOW LED)"
+		(property "Value" "EG OUT LED"
 			(at 276.86 79.0575 0)
 			(effects
 				(font
@@ -5789,7 +5789,7 @@
 				)
 			)
 		)
-		(property "Value" "GATE DELAY (YELLOW LED)"
+		(property "Value" "GATE DELAY LED"
 			(at 242.8875 20.32 0)
 			(effects
 				(font
@@ -15817,22 +15817,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "202120cb-6eef-4c9a-9978-680ce50e7ec0")
+			(uuid "202120cb-6eef-4c9a-9978-680ce50e7ec1")
 		)
 		(pin "1"
-			(uuid "ce991e3c-5b5b-449c-b3e2-5d8f7cda06e1")
+			(uuid "ce991e3c-5b5b-449c-b3e2-5d8f7cda06e2")
 		)
 		(pin "5"
-			(uuid "00a7e482-d5f6-4b5c-b64a-0659f551f12d")
+			(uuid "00a7e482-d5f6-4b5c-b64a-0659f551f12e")
 		)
 		(pin "2"
-			(uuid "a7ad59cd-799b-40c7-9d70-bc06abcb82cc")
+			(uuid "a7ad59cd-799b-40c7-9d70-bc06abcb82cd")
 		)
 		(pin "4"
-			(uuid "ca30dd9a-74ff-4fca-8d46-393709ae99c5")
+			(uuid "ca30dd9a-74ff-4fca-8d46-393709ae99c6")
 		)
 		(pin "6"
-			(uuid "dbe5a96d-787e-4b2b-8698-4b7a54fdb4d5")
+			(uuid "dbe5a96d-787e-4b2b-8698-4b7a54fdb4d6")
 		)
 		(instances
 			(project "Erica_Polivoks_EG"
