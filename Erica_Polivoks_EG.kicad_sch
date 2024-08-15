@@ -3488,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 172.72) (xy 30.48 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040a1045-95cc-438e-bdf2-ab5bdc65b51e")
+	)
+	(wire
+		(pts
 			(xy 134.62 86.36) (xy 135.89 86.36)
 		)
 		(stroke
@@ -4148,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 189.23) (xy 30.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b75e62-703a-4b1d-90b9-2410a71715d2")
+	)
+	(wire
+		(pts
 			(xy 74.93 113.03) (xy 74.93 50.8)
 		)
 		(stroke
@@ -4398,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 185.42) (xy 43.18 185.42)
+			(xy 30.48 189.23) (xy 43.18 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4898,6 +4918,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 172.72) (xy 43.18 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6142c54-4724-4adf-8dc2-01a8c68aecb6")
+	)
+	(wire
+		(pts
 			(xy 20.32 25.4) (xy 25.4 25.4)
 		)
 		(stroke
@@ -4908,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 175.26) (xy 43.18 175.26)
+			(xy 30.48 172.72) (xy 43.18 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5258,6 +5288,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 189.23) (xy 43.18 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ea708f-b374-42df-9211-affcff1045e4")
+	)
+	(wire
+		(pts
 			(xy 43.18 175.26) (xy 49.53 175.26)
 		)
 		(stroke
@@ -5462,7 +5502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Switch:Switch_Toggle_DPDT_SubMini"
+		(property "Footprint" "Library:Switch_Toggle_DPDT_MS202"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -5480,7 +5520,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
+		(property "Description" "SW_DPDT "
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "MS-202 "
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -5526,7 +5575,7 @@
 		(dnp no)
 		(uuid "016a9d9b-f982-468f-bb93-2b1727797259")
 		(property "Reference" "J3"
-			(at 34.7233 168.91 0)
+			(at 34.544 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5583,7 @@
 			)
 		)
 		(property "Value" "Eurorack_Power_10pin_Unshrouded"
-			(at 34.7233 171.45 0)
+			(at 34.544 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5771,7 @@
 				)
 			)
 		)
-		(property "Value" "EG OUT LED"
+		(property "Value" "LED"
 			(at 276.86 79.0575 0)
 			(effects
 				(font
@@ -5748,13 +5797,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 271.78 77.47 0)
+		(property "Description" "EG OUT"
+			(at 276.86 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5789,7 +5837,7 @@
 				)
 			)
 		)
-		(property "Value" "GATE DELAY LED"
+		(property "Value" "LED"
 			(at 242.8875 20.32 0)
 			(effects
 				(font
@@ -5815,13 +5863,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 241.3 25.4 0)
+		(property "Description" "GATE DELAY"
+			(at 234.696 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5960,6 +6007,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "104"
+			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbe3bf86-0cb6-4617-be56-c722351f7ce0")
 		)
@@ -6003,7 +6059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 46.99 85.09 0)
 			(effects
 				(font
@@ -6040,6 +6096,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 46.99 85.09 0)
 			(effects
 				(font
@@ -6500,6 +6565,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "6▼"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "74243d92-b746-41d9-8022-9fe68b412e2b")
 		)
@@ -6631,6 +6705,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "◀47uF"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -7188,7 +7271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 255.27 59.69 0)
 			(effects
 				(font
@@ -7225,6 +7308,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 255.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 255.27 59.69 0)
 			(effects
 				(font
@@ -7876,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 144.78 72.39 0)
 			(effects
 				(font
@@ -7913,6 +8005,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 144.78 72.39 0)
 			(effects
 				(font
@@ -8058,6 +8159,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "4.7uF"
+			(at 194.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dec9ad5-c2bb-400a-9d8b-433fe601b40e")
 		)
@@ -8191,6 +8301,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4▼"
 			(at 269.24 93.98 0)
 			(effects
 				(font
@@ -8407,6 +8526,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "6▼"
+			(at 186.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0507c4b2-7075-4ed7-ba99-e90116b1eab2")
 		)
@@ -8476,6 +8604,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4▼"
 			(at 248.92 30.48 0)
 			(effects
 				(font
@@ -8934,7 +9071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -8971,6 +9108,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -9041,6 +9187,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "104"
 			(at 82.55 184.15 0)
 			(effects
 				(font
@@ -9244,6 +9399,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "104"
 			(at 69.85 184.15 0)
 			(effects
 				(font
@@ -9458,6 +9622,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "◀47uF"
+			(at 53.34 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd321f6c-52a5-4eb6-91ac-13d165847c9f")
 		)
@@ -9619,6 +9792,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "G. DELAY OUT"
+			(at 273.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10949,7 +11131,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85a95459-ceec-406c-9163-04ff1f0d8557")
 		(property "Reference" "RV2"
 			(at 29.21 41.91 90)
@@ -10959,7 +11140,7 @@
 				)
 			)
 		)
-		(property "Value" "1M LOG \"DECAY\""
+		(property "Value" "1M LOG"
 			(at 29.21 44.45 90)
 			(effects
 				(font
@@ -10985,13 +11166,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 29.21 38.1 0)
+		(property "Description" " DECAY"
+			(at 36.068 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -11060,6 +11240,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4▼"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -11788,7 +11977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -11825,6 +12014,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -12191,7 +12389,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae5ec210-eb75-41ca-bf66-726169310342")
 		(property "Reference" "RV4"
 			(at 121.92 110.4899 0)
@@ -12202,7 +12399,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k LOG \"SUSTAIN\""
+		(property "Value" "100k LOG"
 			(at 121.92 113.0299 0)
 			(effects
 				(font
@@ -12229,13 +12426,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 124.46 111.76 0)
+		(property "Description" " SUSTAIN"
+			(at 117.602 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -12884,7 +13080,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12921,6 +13117,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 255.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 255.27 144.78 0)
 			(effects
 				(font
@@ -12997,6 +13202,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "▲100k"
+			(at 264.16 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78c3bb7c-aaa7-49ae-ba74-6296d491f3da")
 		)
@@ -13040,7 +13254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 134.62 81.28 0)
 			(effects
 				(font
@@ -13077,6 +13291,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 134.62 81.28 0)
 			(effects
 				(font
@@ -13281,6 +13504,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "104"
 			(at 82.55 176.53 0)
 			(effects
 				(font
@@ -13554,6 +13786,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4▼"
 			(at 87.63 92.71 0)
 			(effects
 				(font
@@ -13940,6 +14181,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "4▼"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "da9b263e-f49f-4192-8a33-54adca392f7d")
 		)
@@ -14099,7 +14349,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cbc14005-bd99-49f8-b660-5c00cb128f5b")
 		(property "Reference" "RV1"
 			(at 29.21 29.21 90)
@@ -14109,7 +14358,7 @@
 				)
 			)
 		)
-		(property "Value" "1M LOG \"ATTACK\""
+		(property "Value" "1M LOG"
 			(at 29.21 31.75 90)
 			(effects
 				(font
@@ -14135,13 +14384,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 29.21 25.4 0)
+		(property "Description" "ATTACK"
+			(at 37.084 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14240,7 +14488,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdeded6d-8fa2-4feb-bfd1-26660d04e85f")
 		(property "Reference" "RV3"
 			(at 29.21 54.61 90)
@@ -14250,7 +14497,7 @@
 				)
 			)
 		)
-		(property "Value" "1M LOG \"RELEASE\""
+		(property "Value" "1M LOG"
 			(at 29.21 57.15 90)
 			(effects
 				(font
@@ -14276,13 +14523,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 29.21 50.8 0)
+		(property "Description" " RELEASE"
+			(at 37.084 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14331,7 +14577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 250.19 144.78 0)
 			(effects
 				(font
@@ -14368,6 +14614,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 250.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 250.19 144.78 0)
 			(effects
 				(font
@@ -14615,7 +14870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -14652,6 +14907,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -14801,6 +15065,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "4▼"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d45d70c1-f1bb-4084-affe-a310236d0565")
 		)
@@ -14865,6 +15138,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "◀470"
+			(at 264.16 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15281,6 +15563,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "6▼"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5161138f-dd70-4d4e-9ce1-f634451fb089")
 		)
@@ -15460,7 +15751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 255.27 119.38 0)
 			(effects
 				(font
@@ -15497,6 +15788,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 255.27 119.38 0)
 			(effects
 				(font
@@ -15548,7 +15848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 250.19 59.69 0)
 			(effects
 				(font
@@ -15585,6 +15885,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 250.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 250.19 59.69 0)
 			(effects
 				(font
@@ -15702,7 +16011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Library:D_DO-35_SOD27_P7.62mm_Horizontal_Widened_No_K"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -15739,6 +16048,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 250.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "4148"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -15789,7 +16107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Switch:Switch_Toggle_DPDT_SubMini"
+		(property "Footprint" "Library:Switch_Toggle_DPDT_MS202"
 			(at 148.59 114.3 0)
 			(effects
 				(font
@@ -15807,7 +16125,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
+		(property "Description" "SW_DPDT "
+			(at 148.59 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "MS-202 "
 			(at 148.59 114.3 0)
 			(effects
 				(font
@@ -15895,6 +16222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "◀100k"
+			(at 24.13 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47af9b48-bfe2-486c-8158-1b36c907bfb7")
 		)
@@ -15955,6 +16291,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 260.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "◀470"
+			(at 260.35 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -41,6 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 60.07 83.3)
 		(pcbplotparams
 			(layerselection 0x0000020_7ffffffe)
 			(plot_on_all_layers_selection 0x0001000_00000000)
@@ -557,8 +558,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 5.969 5.969)
-			(drill 4.953)
+			(size 8 8)
+			(drill 7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "7f01c2dc-c2f4-422d-b348-c0a5a4e69cd5")
