@@ -5590,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped"
+		(property "Footprint" "Library:IDC-Header_2x05_P2.54mm_Vertical_Euro_Power_Striped_ThickerText"
 			(at 39.37 190.5 0)
 			(effects
 				(font
@@ -8159,7 +8159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "4.7uF"
+		(property "Silkscreen Value" "◀4.7uF"
 			(at 194.31 123.19 0)
 			(effects
 				(font
@@ -8309,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "4▼"
+		(property "Silkscreen Value" "4▲"
 			(at 269.24 93.98 0)
 			(effects
 				(font
