@@ -5520,7 +5520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SW_DPDT "
+		(property "Description" "SW_DPDT"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -5980,7 +5980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 70.8152 180.34 0)
 			(effects
 				(font
@@ -6007,7 +6007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "104"
+		(property "Silkscreen Value" "104▶"
 			(at 69.85 176.53 0)
 			(effects
 				(font
@@ -6249,6 +6249,24 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" "TL074"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "TL074▶"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "57e74ecc-495b-4de3-a9cd-6ac410c4a15c")
 		)
@@ -6344,6 +6362,24 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" "TL074"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "TL074▶"
 			(at 143.51 88.9 0)
 			(effects
 				(font
@@ -6456,6 +6492,24 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen" "TL074"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "TL074▶"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "57e74ecc-495b-4de3-a9cd-6ac410c4a15f")
 		)
@@ -6535,7 +6589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 102.87 61.595 0)
 			(effects
 				(font
@@ -7048,6 +7102,24 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" "TL074"
+			(at 229.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "TL074▶"
 			(at 229.87 115.57 0)
 			(effects
 				(font
@@ -8279,7 +8351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 274.32 95.885 0)
 			(effects
 				(font
@@ -8496,7 +8568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 191.77 104.775 0)
 			(effects
 				(font
@@ -8582,7 +8654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 243.84 32.385 0)
 			(effects
 				(font
@@ -9168,7 +9240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 83.5152 187.96 0)
 			(effects
 				(font
@@ -9195,7 +9267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "104"
+		(property "Silkscreen Value" "◀104"
 			(at 82.55 184.15 0)
 			(effects
 				(font
@@ -9380,7 +9452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 70.8152 187.96 0)
 			(effects
 				(font
@@ -9407,7 +9479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "104"
+		(property "Silkscreen Value" "◀104"
 			(at 69.85 184.15 0)
 			(effects
 				(font
@@ -11140,7 +11212,7 @@
 				)
 			)
 		)
-		(property "Value" "1M LOG"
+		(property "Value" "1M A"
 			(at 29.21 44.45 90)
 			(effects
 				(font
@@ -11166,7 +11238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " DECAY"
+		(property "Description" "DECAY"
 			(at 36.068 44.45 90)
 			(effects
 				(font
@@ -11218,7 +11290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 170.815 104.14 0)
 			(effects
 				(font
@@ -11624,6 +11696,24 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 97.79 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen" "TL074"
+			(at 97.79 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "TL074▶"
 			(at 97.79 180.34 0)
 			(effects
 				(font
@@ -12399,7 +12489,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k LOG"
+		(property "Value" "100k A"
 			(at 121.92 113.0299 0)
 			(effects
 				(font
@@ -12426,7 +12516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " SUSTAIN"
+		(property "Description" "SUSTAIN"
 			(at 117.602 115.824 0)
 			(effects
 				(font
@@ -13485,7 +13575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 83.5152 180.34 0)
 			(effects
 				(font
@@ -13512,7 +13602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Silkscreen Value" "104"
+		(property "Silkscreen Value" "104▶"
 			(at 82.55 176.53 0)
 			(effects
 				(font
@@ -13764,7 +13854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 92.71 94.615 0)
 			(effects
 				(font
@@ -14151,7 +14241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 82.55 120.015 0)
 			(effects
 				(font
@@ -14358,7 +14448,7 @@
 				)
 			)
 		)
-		(property "Value" "1M LOG"
+		(property "Value" "1M A"
 			(at 29.21 31.75 90)
 			(effects
 				(font
@@ -14497,7 +14587,7 @@
 				)
 			)
 		)
-		(property "Value" "1M LOG"
+		(property "Value" "1M A"
 			(at 29.21 57.15 90)
 			(effects
 				(font
@@ -14523,7 +14613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " RELEASE"
+		(property "Description" "RELEASE"
 			(at 37.084 57.15 90)
 			(effects
 				(font
@@ -15035,7 +15125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 191.77 90.805 0)
 			(effects
 				(font
@@ -15254,7 +15344,7 @@
 				)
 			)
 		)
-		(property "Value" " NU 39K"
+		(property "Value" "NU 39K"
 			(at 234.95 149.86 90)
 			(effects
 				(font
@@ -15533,7 +15623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Library:TO-92L_Inline_Wider"
 			(at 191.77 57.785 0)
 			(effects
 				(font
@@ -16125,7 +16215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SW_DPDT "
+		(property "Description" "SW_DPDT"
 			(at 148.59 114.3 0)
 			(effects
 				(font
