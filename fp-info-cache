@@ -1,4 +1,4 @@
-24183303665304969
+24185030745663847
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64392,6 +64392,13 @@ Pot_9mm_DShaft_RemovedPins4_5
 0
 5
 3
+Library
+R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal_Widened
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
 Library
 Switch_Toggle_DPDT_MS202
 Through hole straight pin header, 2x03, 2.54mm pitch, double rows
