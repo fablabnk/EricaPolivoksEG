@@ -1,3 +1,12 @@
+# V1.1
+
+Revised with Dmitri
+- update pots
+- check out the responses of the curves (oscilloscope)
+- why does gate out not work
+- why do LED's not work - try it with red ones which demand lower voltage
+- Env and Inverse seem to be working
+
 # V1.0
 
 ## Things to pay attention to whilst building
