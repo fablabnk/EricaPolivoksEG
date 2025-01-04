@@ -3271,6 +3271,12 @@
 		(uuid "a057cf97-353b-428d-9d9a-139f6e79925c")
 	)
 	(junction
+		(at 229.87 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a32fe6a9-f391-40b6-8752-19ab13860466")
+	)
+	(junction
 		(at 255.27 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3437,6 +3443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fca219be-2fd0-473b-b788-64e437a89ee4")
+	)
+	(junction
+		(at 168.91 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd021551-cdc1-4cf1-a4cd-2ef4e7064d6e")
 	)
 	(junction
 		(at 119.38 91.44)
@@ -3928,6 +3940,17 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 67.31) (xy 229.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 1 13 1)
+		)
+		(uuid "35524797-5371-4361-9a86-9625268e9b6c")
+	)
+	(wire
+		(pts
 			(xy 29.21 17.78) (xy 29.21 21.59)
 		)
 		(stroke
@@ -3968,7 +3991,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 55.88) (xy 229.87 68.58)
+			(xy 229.87 55.88) (xy 229.87 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4075,6 +4098,17 @@
 			(type default)
 		)
 		(uuid "45acd3fa-865a-4559-90d9-0991671dc20f")
+	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 199.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 1 13 1)
+		)
+		(uuid "49730de0-5eba-476d-a6e0-041ea1d6686e")
 	)
 	(wire
 		(pts
@@ -4205,6 +4239,16 @@
 			(type default)
 		)
 		(uuid "5897ab4c-d388-4c54-867b-334bcad1edb2")
+	)
+	(wire
+		(pts
+			(xy 229.87 67.31) (xy 229.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a549b30-e2bf-4e74-b09e-40f47a41f0e3")
 	)
 	(wire
 		(pts
@@ -4605,6 +4649,17 @@
 			(type default)
 		)
 		(uuid "89d9af40-a3d6-4a49-94ad-2e9655f07ae1")
+	)
+	(wire
+		(pts
+			(xy 199.39 82.55) (xy 199.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 1 13 1)
+		)
+		(uuid "8b6dbc26-3849-4bce-9317-0953d0c8c269")
 	)
 	(wire
 		(pts
@@ -5475,6 +5530,16 @@
 			(type default)
 		)
 		(uuid "ff076e23-ebd4-4b92-acf2-622173234466")
+	)
+	(text "Missing from PCB!"
+		(exclude_from_sim no)
+		(at 189.992 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d3d5b07-f931-4b37-94ee-48f0b9fe5c6a")
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
@@ -11206,7 +11271,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 29.21 38.1 90)
+		(at 29.21 38.1 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11248,11 +11314,12 @@
 			)
 		)
 		(property "Description" "DECAY"
-			(at 36.068 44.45 90)
+			(at 32.004 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "3"
@@ -12483,6 +12550,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 124.46 111.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12490,7 +12558,7 @@
 		(dnp no)
 		(uuid "ae5ec210-eb75-41ca-bf66-726169310342")
 		(property "Reference" "RV4"
-			(at 121.92 110.4899 0)
+			(at 121.92 113.0301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +12567,7 @@
 			)
 		)
 		(property "Value" "100k A"
-			(at 121.92 113.0299 0)
+			(at 121.92 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +12594,7 @@
 			)
 		)
 		(property "Description" "SUSTAIN"
-			(at 117.602 115.824 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14451,7 +14519,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 29.21 25.4 90)
+		(at 29.21 25.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14493,11 +14562,12 @@
 			)
 		)
 		(property "Description" "ATTACK"
-			(at 37.084 31.75 90)
+			(at 32.258 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "3"
@@ -14590,7 +14660,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 29.21 50.8 90)
+		(at 29.21 50.8 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14632,11 +14703,12 @@
 			)
 		)
 		(property "Description" "RELEASE"
-			(at 37.084 57.15 90)
+			(at 32.258 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "3"

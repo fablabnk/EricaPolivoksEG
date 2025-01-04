@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "pth_inside_courtyard|58800000|105050000|16853c14-0585-450a-8d13-5b6b3cb86ee9|e611d7a5-5008-4a6b-91b3-d948799eccf7",
-        "pth_inside_courtyard|60070000|110284200|a58324d7-14cc-494c-a9a0-53c05395c048|d53895c5-107a-4118-9277-2179943eb2ca",
-        "pth_inside_courtyard|60070000|154815800|6a7b8995-c1fa-4c3e-ae7e-e27e290ab253|03149d58-ea7f-4bd8-bd14-af8a9b27935b",
-        "pth_inside_courtyard|61340000|105050000|8cc735d0-dbd3-4acc-beeb-e986f7a4d94f|e611d7a5-5008-4a6b-91b3-d948799eccf7",
-        "pth_inside_courtyard|71070000|154815800|367a64c3-8030-4954-a458-d3de40dc8121|b6d3eeee-9a08-4f9f-8ace-1a8f8c8236d3",
-        "pth_inside_courtyard|82070000|154815800|e98a99fb-e2e9-4f4c-8fe9-82956b75ffbf|9ad5f89e-8522-4d19-93ee-d0b02849bea8"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -186,7 +179,7 @@
       ],
       "track_widths": [
         0.0,
-        0.508,
+        0.45,
         0.762
       ],
       "tuning_pattern_settings": {
